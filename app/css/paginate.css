@@ -1,0 +1,19 @@
+.paginate {
+    text-align: center;
+}
+.paginate a {
+    padding: 5px;
+}
+.paginate-link {font-size: 15px;}
+.paginate-first {font-size: 11px;}
+.paginate-last {font-size: 11px;}
+.paginate-next {font-size: 13px;}
+.paginate-prev {font-size: 13px;}
+.paginate-current {
+    font-size: 19px;
+    color: #009dbb;
+}
+.paginate-current:hover {
+    cursor: default;
+    text-decoration: none;
+}
