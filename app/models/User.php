@@ -173,7 +173,7 @@ class User extends AppModel
 
         if($this->isNewRecord)
         {
-            $sql = "INSERT INTO user values('', :username, :password, :email, :active)";
+            $sql = "INSERT INTO user values(null, :username, :password, :email, :active)";
             $this->setSql($sql);
             $res = $this->query(array(
                 ':username' => $this->_username,
